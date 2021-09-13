@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+:root{
+    --body-bgColor : #D4ECDD;
+    --head-color: #152D35;
+    --counter: #112031;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--body-bgColor);
+}
+
+#heading{
+    margin-top: 5rem;
+    color: var(--head-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#counter-val{
+    color: var(--counter);
+    font-size: 5.5rem;
+}
+
+button{
+    background-color: var(--body-bgColor);
+    border: 2px solid var(--counter);
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--counter);
+    color: var(--body-bgColor);
+}
+
+footer{
+    margin-top: 5rem;
+    bottom: 0;
+    font-size: 15px;
+
+}
